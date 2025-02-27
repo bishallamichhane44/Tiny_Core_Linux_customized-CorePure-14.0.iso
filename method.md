@@ -1,7 +1,7 @@
 
-## Step-by-Step Guide
+##  Step-by-Step Guide
 
-### Step 1: Start Fresh and Set Up the Working Directory
+###  Step 1: Start Fresh and Set Up the Working Directory
 
 `mkdir tinycore-remaster`
 

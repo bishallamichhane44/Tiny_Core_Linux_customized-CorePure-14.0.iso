@@ -1,11 +1,11 @@
-# Modifying the Tiny Core Linux to create a custom remastered ISO of Tiny Core Linux
+#  Modifying the Tiny Core Linux to create a custom remastered ISO of Tiny Core Linux
 
 
-## Overview
+##  Overview
 
 **This project was completed as part of a 6th-semester Operating System course project.** 
 
-Here, we modified the Tiny Core Linux CorePure64-14.0.iso (CLI-only, 64-bit version) to include additional TCZ extensions (e.g., nano, ncursesw, etc.) and a custom C++ binary (`bsl`) in `/usr/local/bin`. The resulting ISO (`CorePure64-with-nano.iso`) retains Tiny Core’s minimal, RAM-based, CLI-only nature, demonstrating concepts like lightweight OS design, boot processes, and filesystem customization. For this process, I used Ubuntu running in Windows Subsystem for Linux (WSL) on Windows 11, and tested the modified ISO in QEMU for verification. This manual assumes you’re a beginner and includes detailed explanations for each step, focusing on proper permissions and paths.
+Here, we modified the Tiny Core Linux CorePure64-14.0.iso (CLI-only, 64-bit version) to include additional TCZ extensions (e.g., nano, ncursesw, etc.) and a custom C++ binary (`bsl`) in `/usr/local/bin`. The resulting ISO (`CorePure64-with-nano.iso`) retains Tiny Core’s minimal, RAM-based, CLI-only nature, demonstrating concepts like lightweight OS design, boot processes, and filesystem customization. For this process, I used Ubuntu running in Windows Subsystem for Linux (WSL) on Windows 11, and tested the modified ISO in QEMU for verification. This manual assumes you’re a beginner and includes detailed explanation for each step, focusing on proper permissions and paths.
 
 
 
