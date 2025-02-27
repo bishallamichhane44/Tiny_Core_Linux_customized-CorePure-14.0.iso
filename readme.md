@@ -22,11 +22,13 @@ Choose any OS , analyze it and  add/implement new features in it.
 
 
 **Methods of modifying the OS to get updated iso file**
-- **Our Approach**:  
-    - We started with the pre-built CorePure64-14.0.iso, extracted its initramfs (corepure64.gz), added pre-compiled TCZ extensions and custom binary (written in C++), and repacked the initramfs into a new ISO.
-      
-    - This is a _remastering_ process (as described in Chapters 11–13 of book "Into the Core"), focusing on modifying the existing filesystem and ISO structure without compiling source code.
-      
+- **Our Approach**:
+- 
+    - We started with the pre-built CorePure64-14.0.iso, extracted its initramfs (corepure64.gz), added pre-compiled TCZ extensions and a custom binary (written in C++), and repacked the 
+      initramfs into a new ISO.
+
+    - This is a remastering process (as described in Chapters 11–13 of the book Into the Core), focusing on modifying the existing filesystem and ISO structure without compiling source code.
+
     - It’s quicker and requires less development expertise but is limited to working with existing binaries and scripts.
     
     **Benefits**:  
